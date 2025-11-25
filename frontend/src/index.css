@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Defaults */
+body {
+  background-color: #09090b; /* Dark background */
+  color: white;
+  /* This ensures the font looks sharp on Mac/iOS */
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: This handles the Custom Wallet Button styles we discussed earlier */
+.custom-wallet-wrapper .wallet-adapter-button {
+  background-color: #18181b !important;
+  border: 1px solid #27272a !important;
+  color: white !important;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600 !important;
+  height: 48px !important;
+  padding: 0 24px !important;
+  border-radius: 12px !important;
+}
+
+.custom-wallet-wrapper .wallet-adapter-button:hover {
+  background-color: #27272a !important;
+  border-color: #3f3f46 !important;
+}

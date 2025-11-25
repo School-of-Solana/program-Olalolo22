@@ -1,0 +1,25 @@
+[package]
+name = "tip_project"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "tip_project"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+indexmap = "=2.11.4"
+# Add this if 'ahash' gives you trouble next
+ahash = "=0.8.11"
+
+[patch.crates-io]
+proc-macro-crate = { version = "=3.2.0" }
