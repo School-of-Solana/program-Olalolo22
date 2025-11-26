@@ -20,9 +20,11 @@ To get this Solana Tip Program up and running on your local machine, follow thes
 Begin by cloning the project repository to your local system:
 ```bash
 
+
 git clone 
 
 cd program-Olalolo22/tip_project
+
 
 🐳 **2. Install Prerequisites**:
 This project requires the Solana CLI, Rust programming language, and the Anchor CLI. The provided `Dockerfile` offers a convenient way to set up the development environment.
