@@ -17,7 +17,10 @@ To get the LaLa01 Solana Tipping Platform up and running on your local machine, 
 ### Installation
 1.  **Clone the Repository**:
     ```bash
+
     git clone 
+=======
+    
     Navigate into the project directory:
     ```bash
     cd program-Olalolo22

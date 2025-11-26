@@ -19,7 +19,9 @@ To get this Solana Tip Program up and running on your local machine, follow thes
 📦 **1. Clone the Repository**:
 Begin by cloning the project repository to your local system:
 ```bash
+
 git clone 
+
 cd program-Olalolo22/tip_project
 
 🐳 **2. Install Prerequisites**:
@@ -155,20 +157,7 @@ We welcome contributions to the Solana Tip Program! Whether it's feature enhance
 *   **Write Tests**: If you're adding new features or fixing bugs, please include relevant tests.
 *   **Commit Your Changes**: Write clear, concise commit messages.
 *   **Push to Your Fork**: Push your branch to your forked repository.
-*   **Open a Pull Request**: Submit a pull request to the `main` branch of this repository, describing your changes and their purpose.
 
-💡 **Reporting Issues**:
-If you find any bugs or have suggestions for improvements, please open an issue on the GitHub issue tracker.
-
-## License
-No explicit license file has been provided for this project.
-
-## Author Info
-Connect with the author and explore more work!
-
-**[Your Name]**
-*   **LinkedIn**: [Your LinkedIn Profile URL]
-*   **X (formerly Twitter)**: [@YourTwitterHandle]
 
 ---
 Built with Rust | Solana Program
